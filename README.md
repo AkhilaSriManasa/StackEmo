@@ -34,6 +34,10 @@ StackEmo has been developed in Javascript, following the approach below:
 ## Classes-Emoji Table:
 <img width="259" alt="classes" src="https://user-images.githubusercontent.com/42757231/99369355-58a72100-28e2-11eb-91e6-61f561f247fa.png">
 
+## What's inside StackEmo Repository:
+In the StackEmo folder,   
+"stackemo.js" file contains all the source code related to preprocessing text, applying LDA and sentiment analysis, identifying emotion category of the text and finally appending emoji corresponding to the emotion category to the text.
+"manifest.json" file includes the url that triggers start of StackEmo and other application related data.
 
 ## Steps to install StackEmo:
 1. Download the repository on your local machine.  
