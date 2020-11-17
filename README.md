@@ -52,4 +52,4 @@ StackEmo has been developed in Javascript, following the approach below:
 3. You will see that comments on Stack Overflow are accompanied by Emojis.  
 
 ## How to contribute to StackEmo
-We will be very happy to receive any kind of contributions. Incase of a bug or an enhancement idea or a feature improvement idea, please open an issue or a pull request. Incase of any queries or if you would like to give any suggestions, please feel free to contact Akhila Sri Manasa Venigalla (cs19d504@iittp.ac.in) or Srihar Chimalakonda (ch@iittp.ac.in) of RISHA Lab, IIT Tirupati, India.
+We will be very happy to receive any kind of contributions. Incase of a bug or an enhancement idea or a feature improvement idea, please open an issue or a pull request. Incase of any queries or if you would like to give any suggestions, please feel free to contact Akhila Sri Manasa Venigalla (cs19d504@iittp.ac.in) or Sridhar Chimalakonda (ch@iittp.ac.in) of RISHA Lab, IIT Tirupati, India.
