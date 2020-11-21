@@ -1,6 +1,4 @@
 # StackEmo
-![risha](https://user-images.githubusercontent.com/42757231/99287545-674cf400-2860-11eb-80b6-4c0346f4a193.png)
-![iittp](https://user-images.githubusercontent.com/42757231/99287625-8186d200-2860-11eb-91a4-aa69ff57d9f2.png)
 
 ## What is StackEmo?
 1. StackEmo is a Google Chrome plug-in, that augments posts on Stack Overflow platform with Emojis, based on the emotions being conveyed by the posts.
