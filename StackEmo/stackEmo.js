@@ -32745,7 +32745,7 @@ while (i < elementlist.length) {
     }else if(classs == 7){
       
       new_string = new_string+"🙄🙋 ";
-     }else if (classs == 8) {
+    }else if (classs == 8) {
 
       new_string = new_string + "😔🙏 ";
     }else{
@@ -32757,6 +32757,9 @@ while (i < elementlist.length) {
     }else if(classs == 5){
       
       new_string = new_string+"💁 ";
+    } else if (classs == 8) {
+
+      new_string = new_string + "😔🙏 ";
     }else{
       new_string = new_string+"😐 ";
     }
