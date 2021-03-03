@@ -32615,7 +32615,9 @@ var class6 = ["here", "is", "the", "answer"]
 
 var class7 = ["nice", "decent", "dainty", "courteous", "thanks", "thank", "you", "bad", "doesn’t", "help", "support", ]
 
-var class8 = [ "anxious", "curious", "how", "why", "can", "I", "not"]
+var class8 = ["anxious", "curious", "how", "why", "can", "I", "not"]
+
+var class9 = ["help", "please", "tell", "explain", "clarify", "could", "share", "describe", "explanation", "description", "provide", "add"]
 
 for (i = 0; i < class1.length; i++) {
   class1[i] = natural.PorterStemmer.stem(class1[i]);
@@ -32649,6 +32651,10 @@ for (i = 0; i < class8.length; i++) {
   class8[i] = natural.PorterStemmer.stem(class8[i]);
 }
 
+for (i = 0; i < class9.length; i++) {
+  class9[i] = natural.PorterStemmer.stem(class9[i]);
+}
+
 
 var array = [];
 console.log(array1.diff(array2));
@@ -32669,7 +32675,7 @@ while (i < elementlist.length) {
     var words = word_classifier(com);
     console.log(words);
 
-    var classpoints = [8];
+    var classpoints = [9];
     var max = 0;
     classs = 0;
 
@@ -32682,6 +32688,7 @@ while (i < elementlist.length) {
     classpoints[5] = words.diff(class6).length;
     classpoints[6] = words.diff(class7).length;
     classpoints[7] = words.diff(class8).length;
+    classpoints[8] = words.diff(class9).length;
 
     
 
@@ -32716,6 +32723,9 @@ while (i < elementlist.length) {
       }else if(classs == 7){
         
         new_string = new_string+"🙋 ";
+      }else if(classs == 8) {
+
+        new_string = new_string + "😔🙏 ";
       }else{
         new_string = new_string+"😃 ";
       }
@@ -32735,6 +32745,9 @@ while (i < elementlist.length) {
     }else if(classs == 7){
       
       new_string = new_string+"🙄🙋 ";
+    }else if (classs == 8) {
+
+      new_string = new_string + "😔🙏 ";
     }else{
       new_string = new_string+"😠 ";
     }
@@ -32744,6 +32757,9 @@ while (i < elementlist.length) {
     }else if(classs == 5){
       
       new_string = new_string+"💁 ";
+    } else if (classs == 8) {
+
+      new_string = new_string + "😔🙏 ";
     }else{
       new_string = new_string+"😐 ";
     }
