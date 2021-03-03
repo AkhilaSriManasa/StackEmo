@@ -32617,7 +32617,7 @@ var class7 = ["nice", "decent", "dainty", "courteous", "thanks", "thank", "you",
 
 var class8 = ["anxious", "curious", "how", "why", "can", "I", "not"]
 
-var class9 = ["help", "please", "tell", "explain", "clarify", "could", "share"]
+var class9 = ["help", "please", "tell", "explain", "clarify", "could", "share", "describe", "explanation", "description", "provide", "add"]
 
 for (i = 0; i < class1.length; i++) {
   class1[i] = natural.PorterStemmer.stem(class1[i]);
@@ -32745,6 +32745,9 @@ while (i < elementlist.length) {
     }else if(classs == 7){
       
       new_string = new_string+"🙄🙋 ";
+     }else if (classs == 8) {
+
+      new_string = new_string + "😔🙏 ";
     }else{
       new_string = new_string+"😠 ";
     }
