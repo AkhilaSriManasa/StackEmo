@@ -32723,7 +32723,7 @@ while (i < elementlist.length) {
       }else if(classs == 7){
         
         new_string = new_string+"🙋 ";
-      }else if(classs == 9) {
+      }else if(classs == 8) {
 
         new_string = new_string + "😔🙏 ";
       }else{
